@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta Jornais Record (2000-2008)</title>
+</head>
+<body>
+    <h1>Consulta de Jornais Gravados da Rede Record (2000-2008)</h1>
+
+    <form action="#">
+        <label for="data">Data:</label>
+        <input type="date" id="data" name="data" min="2000-01-01" max="2008-12-31">
+
+        <label for="programa">Programa:</label>
+        <select id="programa" name="programa">
+            <option value="">Todos os Programas</option>
+            <option value="Jornal da Record">Jornal da Record</option>
+            <option value="Jornal da Record 2ª Edição">Jornal da Record 2ª Edição</option>
+            <option value="Domingo Espetacular">Domingo Espetacular</option>
+            </select>
+
+        <button type="submit">Buscar</button>
+    </form>
+
+    <div id="resultados">
+        </div>
+
+    </body>
+</html>
